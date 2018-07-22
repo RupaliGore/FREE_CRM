@@ -40,7 +40,7 @@ public class LoginPageTest extends TestBase{
   }
 
   @Test(priority=2)
-  public void  loginTest(){
+  public void  loginTest() throws InterruptedException{
 	   homepage = login.login(prop.getProperty("username"),prop.getProperty("password"));	
   }
 	  

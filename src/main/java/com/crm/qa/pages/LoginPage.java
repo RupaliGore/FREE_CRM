@@ -45,10 +45,11 @@ public class LoginPage extends TestBase{
     	return cmLogo.isDisplayed();
     }
 
-     public HomePage login(String un,String pass)
+     public HomePage login(String un,String pass) throws InterruptedException
      {
     	 username.sendKeys(un);
     	 password.sendKeys(pass);
+    	 Thread.sleep(4000);
     	 loginBtn.click();
     	 return new HomePage();
     	 

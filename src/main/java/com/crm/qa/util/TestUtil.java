@@ -1,8 +1,8 @@
 package com.crm.qa.util;
 
 public class TestUtil {
-	public static long PAGE_LOAD_TIMEOUT = 60;
-	public static long IMPLICIT_WAIT =70;
+	public static long PAGE_LOAD_TIMEOUT = 120;
+	public static long IMPLICIT_WAIT =120;
 	
 
 }
